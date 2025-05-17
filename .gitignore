@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ultralytics (YOLO) specific
+runs/
+weights/  #  <--  Important:  This will ignore all weights/ subfolders, but not the files directly inside /models
+# Unless you have other things in weights/, you can remove this line
+
+# Roboflow cache
+.roboflow/
+
+# Gradio cache
+.gradio/
+
+# Weights & Biases
+wandb/
+.wandb/
+*.log
+
+# OS
+.DS_Store

@@ -1,0 +1,7 @@
+ultralytics
+roboflow
+gradio
+opencv-python-headless # Use headless for server environments without a display
+numpy
+matplotlib
+wget # For downloading weights in setup
