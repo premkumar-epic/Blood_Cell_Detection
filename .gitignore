@@ -7,7 +7,7 @@ __pycache__/
 env/
 venv/
 *.env
-
+run/detect/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
