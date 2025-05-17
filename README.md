@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Blood Cell Detection using YOLOv10
 
@@ -39,3 +40,7 @@ python scripts/predict.py
 ```bash
 python scripts/gradio_app.py
 ```
+=======
+<h1>Blood Cell Segmentation and Classification</h1>
+<p>We can classify blood cells if their microscopic image is uploaded </p>
+>>>>>>> ad5042c8842a8e73229398746d6770fcb65013d7
