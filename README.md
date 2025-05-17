@@ -118,6 +118,13 @@ python -c "from roboflow import Roboflow; import os; rf = Roboflow(api_key=os.en
 
 Your dataset will appear in: data/blood-cell-detection-4/
 
+
+> 💡 **Tip:** If your PC has low specifications, you can copy-paste the contents of `notebooks/training_experiments.ipynb` into [Google Colab](https://colab.research.google.com/), then go to **Runtime > Change runtime type**, and set:
+> - **Hardware accelerator:** GPU (preferably T4)
+> - **Runtime type:** Python
+> This will give you much faster training and inference performance.
+
+
 ## Usage
 
 ### 1. 🏋️‍♀️ Train the Model
